@@ -1,0 +1,89 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.row {
+    margin-top: 2%;
+}
+.header-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.card {
+    padding: 20px;
+    margin-bottom: 10px;
+    /*animation: animated-border 1.5s infinite;*/
+}
+.add-btn {
+    float: right;
+}
+.pen-update {
+    float: right;
+}
+.paid-icon {
+    width: 55%;
+}
+
+
+
+@keyframes animated-border {
+    0% {
+      box-shadow: 0 0 0 0 rgba(120,120,120,0.4);
+    }
+    100% {
+       box-shadow: 0 0 0 20px rgba(0,0,0,0);
+    }
+  }
+
+
+.modal {
+    background: #0066CE;
+    background: -moz-radial-gradient(center, #0066CE 0%, #1C6EA4 0%, #142FC5 100%);
+    background: -webkit-radial-gradient(center, #0066CE 0%, #1C6EA4 0%, #142FC5 100%);
+    background: radial-gradient(ellipse at center, #0066CE 0%, #1C6EA4 0%, #142FC5 100%);
+}
+#overview-header {
+    margin-top: 5%;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px -4px #000000; 
+    box-shadow: 5px 5px 15px -4px #000000;
+}
+
+
+#icon-pending {
+    float: right;
+}
+.row-two {
+    margin-top: 2%;
+}
+#monthly-sum-amount {
+    font-size: 1.55rem;
+    font-weight: 900;
+}
+
+
+#icon-update {
+    width: 1.5rem;
+    float: right;
+    margin-top: 5%;
+}
+#icon-updates{
+    width: 1.5rem;
+    float: right;
+    margin-top: 5%;
+}
+
+
+
+
+@media only screen and (min-width: 413px) and (max-width: 455px) {
+  .body-row {
+      font-size: .75rem;
+  }
+  .cards {
+      padding: 0;
+  }
+  #monthly-sum-amount {
+      font-size: 1.25rem;
+  }
+}
